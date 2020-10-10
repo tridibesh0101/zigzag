@@ -4,7 +4,7 @@ indent_increasing = True #whether the indentation is increasing or not.
 try:
 	while True:
 		print(' '*indent,end=' ')
-		print("*******")
+		print("Hello_Friend")
 		time.sleep(0.1) #pause for 1/10 of a  second.
 		if indent_increasing:
 			indent= indent +1
